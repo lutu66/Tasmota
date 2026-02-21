@@ -16,7 +16,14 @@
   You should have received a copy of the GNU General Public License
   along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
-
+#define USE_I2C
+#define USE_DISPLAY
+#define USE_DISPLAY_SSD1306
+#define USE_MODBUS_BRIDGE
+#define USE_BERRY
+#define USE_RULES
+#define USE_WEBSERVER
+#define USE_MQTT
 #ifndef _USER_CONFIG_OVERRIDE_H_
 #define _USER_CONFIG_OVERRIDE_H_
 
